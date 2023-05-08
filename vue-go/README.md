@@ -60,10 +60,3 @@ Its possible to use `go build -o bin/vue-go-example cmd/main.go` or use `make bu
 
 You can either build the client with `make build_client` or you go the client directory and enter `npm run build` (or with yarn: `yarn build`). Both builds the application and moves it into `website`.
 
-## Author
-
-[Julian Claus](https://www.julian-claus.de) and contributors.
-
-## License
-
-MIT
