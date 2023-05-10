@@ -2,11 +2,10 @@ package main
 
 import (
 	"database/sql"
-
 	"github.com/labstack/echo"
 	_ "github.com/mattn/go-sqlite3"
-	"github.com/skadimoolam/go-vue-todos/handlers"
 )
+import "todo/handlers"
 
 func main() {
 	db := initDb("storage.db")

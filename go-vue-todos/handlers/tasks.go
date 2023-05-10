@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/labstack/echo"
-	"github.com/skadimoolam/go-vue-todos/models"
+	"todo/models"
 )
 
 type H map[string]interface{}

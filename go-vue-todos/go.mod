@@ -1,11 +1,10 @@
-module todo.mod
+module todo
 
 go 1.20
 
 require (
 	github.com/labstack/echo v3.3.10+incompatible
 	github.com/mattn/go-sqlite3 v1.14.16
-	github.com/skadimoolam/go-vue-todos v0.0.0-20171124140843-8e0749ca4c86
 )
 
 require (
